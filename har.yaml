@@ -5,7 +5,7 @@ metadata:
   description: harness
   annotations:
     # mandatory annotation
-    harness.io/project-url: https://app.harness.io/ng/account/k5tAdb-3SYWU9PGQYlfntg/module/ci/orgs/default/projects/backstage
+    harness.io/project-url: https://app.harness.io/ng/account/k5tAdb-3SYWU9PGQYlfntg/all/orgs/default/projects/backstage/
   
   tags:
     - java
