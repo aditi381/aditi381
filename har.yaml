@@ -1,12 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: harness
-  description: harness
+  name: demo
+  description: demo
   annotations:
-    harness.io/project-url: https://app.harness.io/ng/account/k5tAdb-3SYWU9PGQYlfntg/all/orgs/default/projects/backstage
+    harness.io/pipelines: |
+      Backstage Deployment: https://app.harness.io/ng/account/k5tAdb-3SYWU9PGQYlfntg/all/orgs/default/projects/backstage/pipelines/backstage/deployments/y05mHkp8TxKE7h1OjQ4w9w/pipeline?storeType=INLINE
   tags:
     - java
+
   links:
     - url: https://example.com/user
       title: Examples Users
@@ -33,4 +35,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
+
 
