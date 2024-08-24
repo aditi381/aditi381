@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo
-  description: demo
+  name: demo1
+  description: demo1
   annotations:
     harness.io/pipelines: |
       Backstage Deployment: https://app.harness.io/ng/account/k5tAdb-3SYWU9PGQYlfntg/all/orgs/default/projects/backstage/pipelines/backstage/deployments/y05mHkp8TxKE7h1OjQ4w9w/pipeline?storeType=INLINE
